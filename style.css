@@ -575,6 +575,13 @@ nav .list ul li:hover a {
 	z-index: 9;
 	position: relative;
 }
+.form a{
+	color: red;
+	text-decoration: none;
+}
+.form a:hover{
+	text-decoration: underline;
+}
 .form .getintouch {
 	font-size: 98px;
 	font-family: AbrilFatface;
