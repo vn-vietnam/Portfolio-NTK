@@ -607,9 +607,12 @@ nav .list ul li:hover a {
 	left: auto !important;
 }
 /* responsive */
-@media (max-width: 850px) {
-	.main-page {
+@media (min-width: 1600px) {
+	.page-3 {
+		height: 80vh;
 	}
+}
+@media (max-width: 850px) {
 	@keyframes anime1 {
 		from {
 			transform: translate(0%, -3%);
@@ -661,10 +664,8 @@ nav .list ul li:hover a {
 	body:hover > #trailer {
 		opacity: 0;
 	}
-
 }
 
-    
 @media (max-width: 600px) {
 	.main-page span {
 		font-size: 45px;
@@ -746,9 +747,9 @@ nav .list ul li:hover a {
 	/* border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px; */
 }
-#full-div1 .list-menu  {
+#full-div1 .list-menu {
 }
-#full-div1 .list-icons  {
+#full-div1 .list-icons {
 	padding: 2em 0em;
 	display: flex;
 	gap: 2em;
