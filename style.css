@@ -645,7 +645,7 @@ nav .list ul li:hover a {
 		width: 100%;
 	}
 	.project .img {
-		height: 100%;
+		height: 300px;
 		width: 100%;
 	}
 }
